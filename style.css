@@ -22,3 +22,11 @@ img[data-testid="slackDisplayImage"]{
 .display-content{
    text-align: center;
 }
+
+p{
+    margin-top: 10px;
+}
+
+a{
+    margin-top: 10px;
+}
