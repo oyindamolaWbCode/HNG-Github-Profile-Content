@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github Display</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="display-container">
@@ -12,9 +13,14 @@
                 <img src="./img/Snapchat-225893556.jpg" data-testid="slackDisplayImage" />
             </div>
             <div class="displays">
-                <h3 data-testid="slackUserName">Oyindamola Kushimo</h3>
+                <h1 data-testid="slackUserName">Oyindamola Kushimo</h1>
+                <h3 data-testid="currentDayOfTheWeek" id="day"></h3>
+                <p data-testid="currentUTCTime" id="time"></p>
+                <p data-testid="myTrack">Track: Front-End Engineering</p>
+                <a href="https://github.com/oyindamolaWbCode/HNG-Github-Profile-Content.git">View Repository</a>
             </div>
         </div>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>
